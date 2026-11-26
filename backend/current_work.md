@@ -1,0 +1,3 @@
+    { } > my boy needs a latex compiler in cv_compiler in functions/ ,its a heavy one, so the question is whether we continue
+            with latex support or smth else that is equally solid, i dont mind a microsoft word iFrame as long as decent results    
+                or we find another solution, cause the current one with pdflatex is like 4gb on ram memory, too heavy for free backend deployment services ;(
