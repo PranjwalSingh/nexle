@@ -1,48 +1,72 @@
-# JobScout + CareerTwin
+# Nexle
 
-JobScout is an AI-powered job search platform that helps users discover relevant opportunities, manage applications, and generate tailored application materials.
+Nexle is an AI-powered job search platform built for students and new grads. It scrapes jobs, scores them against your profile, generates tailored documents, and helps you manage your entire application pipeline in one place.
 
-CareerTwin powers the personalization behind the platform by maintaining a structured profile of a user's experience, skills, projects, and preferences, allowing resumes and cover letters to be customized for each application.
+🌐 [nexle.ca](https://nexle.ca) — [GitHub](https://github.com/nexle-ca) — [LinkedIn](https://linkedin.com/company/nexle-ca)
 
-## Features
+---
+## Contributing
 
-- AI-powered CV parsing
-- Personalized CareerTwin profile generation
-- Tailored resume generation
-- AI-generated cover letters
-- Job scraping from multiple sources
-- Smart job filtering and scoring
-- Application dashboard with status tracking
-- Search, filtering, and analytics for job management
+Nexle is currently in private development. Star the repo to follow along: the public MVP drops Christmas 2026.
 
-## Tech Stack
+---
 
-### Frontend
-- React
-- TypeScript
-- Tailwind CSS
+## MVP — dropping Christmas 2026
 
-### Backend
-- FastAPI
-- PostgreSQL
-- Supabase
-- Python
+The first public release will be free and focused on the core loop:
 
-### AI
-- LLM-powered resume parsing
-- Job matching and scoring
-- Resume generation
-- Cover letter generation
+- Job scraping across SWE, ML, hardware, and more
+- BYOK cover letter and resume generation (and other tools)
+- Clean application tracker with status management
+- Basic analytics and filtering
+- Simple onboarding and profile setup
 
-## Roadmap
+## What it does (full plan)
 
-Current work focuses on:
-- Application Copilot browser extension
-- Automated application pipeline
-- AI-assisted form filling
-- Enhanced CareerTwin capabilities
-- Smarter job recommendations and career insights
+- Scrapes jobs daily from multiple sources across SWE, ML, hardware, quant, and PM roles
+- Scores each job against your profile and skills automatically
+- Generates tailored resumes and cover letters per application
+- Tracks your applications across stages with a clean dashboard
+- Filters, searches, bulk edits, and surfaces the most relevant roles for you
+- Supports BYOK (Bring Your Own Key) for LLM-powered generation
+- Analytics across every dashboard view and application stage
+- Forum-style discussion threads per job posting so applicants share updates and OA/interview signals
+- Browser extension (Application Copilot) for assisted and fully automated form filling
+- Cold email generation and outreach tooling with scheduling and tracking
+- Interview prep scaffolding built from your CV, cover letter, and job description
+- Mock interview mode with AI that asks role-specific questions and evaluates responses
+- OA (Online Assessment) platform with practice problems, timed environments, and company-specific prep
+- Auto-apply pipeline with a job queue, bot detection handling, and fallback to manual
+- Email tracking to map recruiter replies back to specific applications
+- Career insights and recommendations powered by RAG over your profile and GitHub
+- Benchmarking against similar applicants to surface where you stand
+- Timeline view of your full application history, resume versions, and skill evolution
+- CareerTwin profile that mirrors your experience and self-improves from application outcomes
 
-## Vision
+---
 
-Build an AI career assistant that not only helps users apply for jobs, but actively assists throughout the entire job search process—from discovering opportunities to preparing applications, tracking progress, and improving over time.
+## Stack
+
+**Frontend** — React, TypeScript, Tailwind CSS, React Router v6, Chrome Extension (Application Copilot)
+
+**Backend** — FastAPI, Python, Celery, Redis, Kafka, PostgreSQL, Supabase
+
+**AI** — Claude, Gemini, Groq, VertexAI, Google ADK, MCP, RAG pipeline, LLM-powered CV parsing, resume generation, cover letter generation, job scoring, cold email generation, automated form filling agent
+
+**Infrastructure** — GCP, Azure, Vercel, Render, Railway, Supabase Auth, GitHub Actions
+
+**Coming soon** — mobile app, fine-tuned outreach models, self-improving feedback loops
+---
+
+## Jobs Board
+
+> Live job listings scraped and updated daily. Apply directly or track them inside Nexle.
+
+| Company | Role | Location | Category | Posted |
+|---------|------|----------|----------|--------|
+| — | — | — | — | — |
+
+*Check back once the scraper goes live. The board updates daily.*
+
+---
+
